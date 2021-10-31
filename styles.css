@@ -1,0 +1,132 @@
+body{
+    padding:0;
+    margin:0;
+    font-family: 'Quicksand', sans-serif;
+    text-decoration: none;
+}
+a {
+    color: inherit;
+    text-decoration: none;
+}
+.medsos {
+    padding: 5px 0;
+    background-color: #37E6F7;
+}
+.medsos ul li {
+    display:inline-block;
+    color:#fff;
+    margin-right: 10px;
+}
+.container {
+    width:80%;
+    margin:0 auto;
+}
+.header-logo {
+    float: left;
+    padding: 15px 0;
+    color: #37E6F7;
+    font-size: 27px;
+}
+.header-list {
+    float: right;
+}
+.header-list ul li {
+    display: inline-block;
+}
+.header-list ul li a {
+    padding: 25px 20px;
+    display: inline-block;
+}
+.header-list ul li a:hover {
+    background-color: #37E6F7;
+    color:#fff;
+}
+.active {
+    background-color: #37E6F7;
+    color:#fff;
+}
+.banner {
+    height: 95vh;
+    background-image: url("bg6.jpg");
+    margin-top: 100px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.banner:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+.banner h1 {
+    color:salmon;
+    padding: 20px 25px;
+    font-family: 'Abril-Fatface';
+    font-size: 75px;
+}
+section {
+    padding: 50px 0;
+}
+section h2 {
+    text-align: center;
+    padding: 20px 0;
+    color:#37E6F7;
+}
+section h3 {
+    text-align: center;
+    padding: 20px 0;
+    font-family: 'Exo-2';
+    font-size:30px;
+    color:royalblue;
+}
+.about p {
+    color:#666;
+    word-spacing: 2px;
+    line-height: 25px;
+}
+footer {
+    padding: 30px 0;
+    background-color:dodgerblue;
+    color: #fff;
+    text-align: center;
+}
+.ikon {
+    display: inline-block;
+}
+.ikon img {
+    margin-bottom: 25px;
+    margin-top:5px;
+}
+.ikon p {
+    margin-bottom: 40px;
+    margin-top:0px;
+}
+.ikon2 {
+   display: inline-block;
+   margin-left: 85px;
+}
+.ikon2 img {
+    margin-bottom: 25px;
+    margin-top:25px;
+}
+.ikon2 p {
+    margin-bottom: 40px;
+    margin-top:0px;
+}
+.servis {
+    padding: 50px 0;
+    height: 470px;
+    background-color:lavender;
+}
+.servis h2 {
+    color: darkviolet;
+    font-family: 'Ceviche-One';
+}
+.servis a {
+    color:slateblue;
+}
